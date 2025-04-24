@@ -55,17 +55,19 @@ body {
     flex: 1;
 }
 
-h1 {
-    font-size: 45px;
-    padding-left: 60px;
-    margin-bottom: 20px;
+.header h1 {
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+  gap: 10px;
 }
 
-h1 img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.header h1 img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
+
 
 .img-container {
     position: relative;
